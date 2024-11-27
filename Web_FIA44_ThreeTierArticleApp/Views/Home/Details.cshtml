@@ -1,0 +1,65 @@
+﻿@model Web_FIA44_ThreeTierArticleApp.Models.Article
+
+@{
+    ViewData["Title"] = "Details";
+}
+@functions {
+    string GetAvailabilityCssClass(string availabilityInfo)
+    {
+        switch (availabilityInfo)
+        {
+            case "Dieser Artikel ist vorrätig":
+                return "available";
+            case "Dieser Artikel ist leider nicht mehr verfügbar":
+                return "not-available";
+            case "Von diesem Artikel sind nur noch Restbestände verfügbar":
+                return "not-available";
+            case "Dieser Artikel kann geliefert werden":
+                return "not-in-stock";
+            default:
+                return "available";
+        }
+    }
+}
+<div>
+    <h4 class="text-center">@Model.Name</h4>
+<h5 class="@GetAvailabilityCssClass(Model.AvailabilityInfo)">@Model.AvailabilityInfo</h5>
+
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Price.ToString("C")
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Stock)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Stock)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IsAvailable)
+        </dt>
+        <dd class = "col-sm-10">
+            @(Model.IsAvailable ? "✅" : "❌")
+        </dd>
+    </dl>
+</div>
+<div>
+	<a class="btn btn-outline-secondary" href="/home/Update?AId=@Model.AId">Daten ändern</a>
+        <a class="btn btn-outline-secondary" asp-action="Index">Zurück zur Liste</a>
+</div>

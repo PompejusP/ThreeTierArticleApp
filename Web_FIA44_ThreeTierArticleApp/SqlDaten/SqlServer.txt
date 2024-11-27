@@ -1,0 +1,24 @@
+﻿﻿Erstellen der Tabelle Article in der Datenbank!
+Bitte zuerste die Datenbank erstellen und dann die Tabellen erstellen!
+Die Datenbank muss dann in der Appsettings.json Datei angegeben werden! ansonsten findet die Anwendung die Datenbank nicht!
+Beispiel: "AllowedHosts": "*",
+    "ConnectionStrings": {
+        "SqlServer": "Data Source=(LocalDb)\\MSSQLLocalDB;Initial Catalog=DB_Eins_zu_N;Integrated Security=True;Pooling=False;Encrypt=False;Trust Server Certificate=False"
+    }!!!!!!
+
+
+
+
+
+
+CREATE TABLE [dbo].[Article] (
+    [AId]         INT           IDENTITY (1, 1) NOT NULL,
+    [Name]        NVARCHAR (50) NOT NULL,
+    [Price]       SMALLMONEY    NOT NULL,
+    [Stock]       INT           NULL,
+    [IsAvailable] BIT           NULL,
+    PRIMARY KEY CLUSTERED ([AId] ASC)
+);
+
+
+anschliessend werden die Daten in die Tabelle eingefügt: diese finden Sie im Ordner SqlDaten/Articledata.txt

@@ -1,0 +1,14 @@
+﻿body {
+
+}
+.available {
+    color: green;
+}
+
+.not-available {
+    color: red;
+}
+
+.not-in-stock {
+    color: orange;
+}

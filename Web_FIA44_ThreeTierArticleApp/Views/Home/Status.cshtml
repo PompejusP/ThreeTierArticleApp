@@ -1,0 +1,33 @@
+﻿@model Web_FIA44_ThreeTierArticleApp.ViewModels.StatusViewModel
+
+@{
+    ViewData["Title"] = "Status";
+}
+
+<h1>Statusübersicht</h1>
+
+<div>
+    <h2>Artikeldetails</h2>
+<hr />
+
+    <p>Artikel mit dem niedrigsten Preis: @Model.MinPriceArticleName  -  @Model.MinPrice.ToString("c")</p><br />
+    <p>Gesamtanzahl der Artikel: @Model.ArticleCount</p><br />
+    <p>Gesamtwert des Lagers: @Model.StockValue.ToString("c")</p><br />
+    <p>Artikel mit dem höchsten Warenbestandwertes: @Model.MaxStockValueArticleName  mit einem Gesamtwarenwert von: @Model.MaxStockValue.ToString("c") </p><br />
+    <br />
+    <h3 >Bestandsstatus</h3>
+	<hr />
+    <ul>
+        <li>Lieferbar und auf Lager:  @Model.StockStatus.availableInStock Artikel</li>
+
+        <li>Nicht lieferbar und nicht auf Lager:  @Model.StockStatus.notAvailableNotinStock Artikel</li>
+
+        <li>lieferbar, aber nicht auf Lager:  @Model.StockStatus.availableNotInStock Artikel</li>
+
+        <li>Nicht lieferbar, aber auf Lager:  @Model.StockStatus.inStockNotAvailable Artikel</li>
+    </ul>
+</div>
+<div>
+    
+    <a class="btn btn-outline-secondary" asp-action="Index">Zurück zur Liste</a>
+</div>
