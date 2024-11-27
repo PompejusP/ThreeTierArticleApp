@@ -52,11 +52,17 @@ namespace Web_FIA44_ThreeTierArticleApp.Controllers
 		[HttpPost]
 		public IActionResult Create(Article article)
 		{
+			//Das Feld AvailabilityInfo wird nicht benötigt und wird aus dem ModelState entfernt dies ist notwendig, da das Feld nicht in der Datenbank vorhanden ist
+			//und somit nicht validiert werden kann und somit die ModelState.IsValid Methode immer false zurückgeben würde
+			ModelState.Remove("AvailabilityInfo");
+			//Prüfen ob die Eingaben korrekt sind
 			if (ModelState.IsValid)
 			{
+				//Artikel hinzufügen und zurück zur Index Seite
 				_articleService.AddArticle(article);
 				return RedirectToAction("Index");
 			}
+			//Falls die Eingaben nicht korrekt sind wird die View erneut angezeigt
 			return View(article);
 		}
 		#endregion
@@ -71,11 +77,17 @@ namespace Web_FIA44_ThreeTierArticleApp.Controllers
 		[HttpPost]
 		public IActionResult Update(Article article)
 		{
+			//Das Feld AvailabilityInfo wird nicht benötigt und wird aus dem ModelState entfernt dies ist notwendig, da das Feld nicht in der Datenbank vorhanden ist
+			//und somit nicht validiert werden kann und somit die ModelState.IsValid Methode immer false zurückgeben würde
+			ModelState.Remove("AvailabilityInfo");
+			//Prüfen ob die Eingaben korrekt sind
 			if (ModelState.IsValid)
 			{
+				//Artikel aktualisieren und zurück zur Index Seite
 				_articleService.UpdateArticle(article);
 				return RedirectToAction("Index");
 			}
+			//Falls die Eingaben nicht korrekt sind wird die View erneut angezeigt
 			return View(article);
 
 		}

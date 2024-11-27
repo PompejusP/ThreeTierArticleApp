@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Web_FIA44_ThreeTierArticleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14c1cc1d007180e0fbd3b52d0a8188b89b0ed5a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Web_FIA44_ThreeTierArticleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Web_FIA44_ThreeTierArticleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
