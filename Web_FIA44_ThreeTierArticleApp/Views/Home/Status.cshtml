@@ -4,29 +4,57 @@
     ViewData["Title"] = "Status";
 }
 
-<h1>Statusübersicht</h1>
+<h1 class="text-center p-3 mb-2">Statusübersicht</h1>
 
-<div>
-    <h2>Artikeldetails</h2>
+<div class="container justify-content-center">
+   
 <hr />
-
-    <p>Artikel mit dem niedrigsten Preis: @Model.MinPriceArticleName  -  @Model.MinPrice.ToString("c")</p><br />
-    <p>Gesamtanzahl der Artikel: @Model.ArticleCount</p><br />
-    <p>Gesamtwert des Lagers: @Model.StockValue.ToString("c")</p><br />
-    <p>Artikel mit dem höchsten Warenbestandwertes: @Model.MaxStockValueArticleName  mit einem Gesamtwarenwert von: @Model.MaxStockValue.ToString("c") </p><br />
-    <br />
-    <h3 >Bestandsstatus</h3>
-	<hr />
-    <ul>
-        <li>Lieferbar und auf Lager:  @Model.StockStatus.availableInStock Artikel</li>
-
-        <li>Nicht lieferbar und nicht auf Lager:  @Model.StockStatus.notAvailableNotinStock Artikel</li>
-
-        <li>lieferbar, aber nicht auf Lager:  @Model.StockStatus.availableNotInStock Artikel</li>
-
-        <li>Nicht lieferbar, aber auf Lager:  @Model.StockStatus.inStockNotAvailable Artikel</li>
-    </ul>
+<div class="card">
+    <div class="card-body">
+    <p class="text-decoration-underline text-center">Artikel mit dem niedrigsten Preis:</p>
+    <p class="text-center text-black">@Model.MinPriceArticleName  -  @Model.MinPrice.ToString("c")</p>
+    </div>
 </div>
+<br />
+<div class="card">
+    <div class="card-body">
+       <p class="text-decoration-underline text-center">Gesamtanzahl der Artikel:</p>
+        <p class="text-center">@Model.ArticleCount</p>
+    </div>
+</div>
+<br />
+    <div class="card">
+        <div class="card-body">
+            <p class="text-decoration-underline text-center">Gesamtwert des Lagers:</p>
+            <p class="text-center">@Model.StockValue.ToString("c")</p>
+        </div>
+    </div>
+<br />
+    <div class="card">
+        <div class="card-body">
+            <p class="text-decoration-underline text-center">Artikel mit dem höchsten Warenbestandwertes:</p>
+            <p class="text-lg-center">@Model.MaxStockValueArticleName  mit einem Gesamtwarenwert von: @Model.MaxStockValue.ToString("c")</p>
+        </div>
+    </div>
+    <br />
+   
+	<hr />
+<div class="card justify-content-center">
+		<div class="card-header bg-secondary-subtle">
+            <h3 class="text-center p-3 mb-2 ">Bestandsstatus</h3>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item text-center bg-success-subtle">Lieferbar und auf Lager:  @Model.StockStatus.availableInStock Artikel</li>
+
+        <li class="list-group-item text-center bg-danger-subtle">Nicht lieferbar und nicht auf Lager:  @Model.StockStatus.notAvailableNotinStock Artikel</li>
+
+        <li class="list-group-item text-center bg-warning-subtle">lieferbar, aber nicht auf Lager:  @Model.StockStatus.availableNotInStock Artikel</li>
+
+        <li class="list-group-item text-center bg-success-subtle">Nicht lieferbar, aber auf Lager:  @Model.StockStatus.inStockNotAvailable Artikel</li>
+		</ul>
+	</div>
+</div>
+<br />
 <div>
     
     <a class="btn btn-outline-secondary" asp-action="Index">Zurück zur Liste</a>

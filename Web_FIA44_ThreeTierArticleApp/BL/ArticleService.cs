@@ -208,7 +208,7 @@ namespace Web_FIA44_ThreeTierArticleApp.BL
 			//das Artikel aus der Datenbank holen
 			var article = _articleRepository.GetArticleById(AId);
 			//wenn der Artikel nicht lieferbar und nicht auf Lager ist dann gebe mir false zurück
-			 if (!article.IsAvailable && article.Stock == 0)
+			if (!article.IsAvailable && article.Stock == 0)
 			{
 				return "Dieser Artikel ist leider nicht mehr verfügbar";
 			}
@@ -224,8 +224,10 @@ namespace Web_FIA44_ThreeTierArticleApp.BL
 			}
 			return "Dieser Artikel ist vorrätig";
 		}
-		#endregion
 
+
+		#endregion
+		
 	}
 }
 

@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|e:\\fia_44_programmieren\\web_fia44_threetierarticleapp\\web_fia44_threetierarticleapp\\bl\\iarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|solutionrelative:web_fia44_threetierarticleapp\\bl\\iarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|e:\\fia_44_programmieren\\web_fia44_threetierarticleapp\\web_fia44_threetierarticleapp\\bl\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|solutionrelative:web_fia44_threetierarticleapp\\bl\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|e:\\fia_44_programmieren\\web_fia44_threetierarticleapp\\web_fia44_threetierarticleapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|solutionrelative:web_fia44_threetierarticleapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|e:\\fia_44_programmieren\\web_fia44_threetierarticleapp\\web_fia44_threetierarticleapp\\views\\home\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|solutionrelative:web_fia44_threetierarticleapp\\views\\home\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|e:\\fia_44_programmieren\\web_fia44_threetierarticleapp\\web_fia44_threetierarticleapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|solutionrelative:web_fia44_threetierarticleapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|e:\\fia_44_programmieren\\web_fia44_threetierarticleapp\\web_fia44_threetierarticleapp\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|solutionrelative:web_fia44_threetierarticleapp\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|e:\\fia_44_programmieren\\web_fia44_threetierarticleapp\\web_fia44_threetierarticleapp\\views\\home\\status.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|solutionrelative:web_fia44_threetierarticleapp\\views\\home\\status.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|e:\\fia_44_programmieren\\web_fia44_threetierarticleapp\\web_fia44_threetierarticleapp\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|solutionrelative:web_fia44_threetierarticleapp\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|e:\\fia_44_programmieren\\web_fia44_threetierarticleapp\\web_fia44_threetierarticleapp\\views\\home\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3849D4B4-8D1A-46AB-8B6B-B1526FCF55D5}|Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp.csproj|solutionrelative:web_fia44_threetierarticleapp\\views\\home\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 191,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,39 +62,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Article.cs",
-              "DocumentMoniker": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\Models\\Article.cs",
-              "RelativeDocumentMoniker": "Web_FIA44_ThreeTierArticleApp\\Models\\Article.cs",
-              "ToolTip": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\Models\\Article.cs",
-              "RelativeToolTip": "Web_FIA44_ThreeTierArticleApp\\Models\\Article.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IArticleService.cs",
+              "DocumentMoniker": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\BL\\IArticleService.cs",
+              "RelativeDocumentMoniker": "Web_FIA44_ThreeTierArticleApp\\BL\\IArticleService.cs",
+              "ToolTip": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\BL\\IArticleService.cs",
+              "RelativeToolTip": "Web_FIA44_ThreeTierArticleApp\\BL\\IArticleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T09:09:46.892Z",
+              "WhenOpened": "2024-12-01T18:36:34.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Web_FIA44_ThreeTierArticleApp\\Controllers\\HomeController.cs",
               "ToolTip": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Web_FIA44_ThreeTierArticleApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwEUAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T09:09:26.309Z",
+              "WhenOpened": "2024-12-01T18:35:45.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ArticleService.cs",
+              "DocumentMoniker": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\BL\\ArticleService.cs",
+              "RelativeDocumentMoniker": "Web_FIA44_ThreeTierArticleApp\\BL\\ArticleService.cs",
+              "ToolTip": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\BL\\ArticleService.cs",
+              "RelativeToolTip": "Web_FIA44_ThreeTierArticleApp\\BL\\ArticleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:34:30.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T18:24:35.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Status.cshtml",
+              "DocumentMoniker": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Status.cshtml",
+              "RelativeDocumentMoniker": "Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Status.cshtml",
+              "ToolTip": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Status.cshtml",
+              "RelativeToolTip": "Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Status.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T17:03:09.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Create.cshtml",
+              "ToolTip": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T16:52:25.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Update.cshtml",
               "DocumentMoniker": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Update.cshtml",
               "RelativeDocumentMoniker": "Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Update.cshtml",
               "ToolTip": "E:\\FIA_44_Programmieren\\Web_FIA44_ThreeTierArticleApp\\Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Update.cshtml",
               "RelativeToolTip": "Web_FIA44_ThreeTierArticleApp\\Views\\Home\\Update.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-27T09:07:42.345Z",
               "EditorCaption": ""

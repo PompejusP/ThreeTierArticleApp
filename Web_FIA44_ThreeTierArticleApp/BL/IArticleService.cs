@@ -18,5 +18,7 @@ namespace Web_FIA44_ThreeTierArticleApp.BL
 		public (string Name, decimal Price) GetArticleMinPrice();
 
 		public string IsArticleAvailableAndInStock(int AId);
+
+	
 	}
 }
